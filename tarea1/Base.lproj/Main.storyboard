@@ -31,15 +31,14 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Button"/>
                                 <connections>
-                                    <action selector="enviar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nF5-Ua-hnr"/>
-                                    <action selector="temaA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WFc-T3-c3J"/>
+                                    <action selector="enviar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MfM-Rd-zKD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHO-4x-rtS">
                                 <rect key="frame" x="54" y="138" width="307" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="TemaB"/>
                                 <connections>
                                     <action selector="temaB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pyI-a9-Cb1"/>
                                 </connections>
@@ -48,7 +47,7 @@
                                 <rect key="frame" x="61" y="203" width="292" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="TemaC"/>
                                 <connections>
                                     <action selector="temaC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y7v-sg-Mp6"/>
                                 </connections>
@@ -65,7 +64,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="enviar" destination="Vtj-Lg-dY7" id="kr8-ey-177"/>
+                        <outlet property="enviar" destination="Vtj-Lg-dY7" id="dcN-Xx-rom"/>
                         <outlet property="temaA" destination="3t8-SA-TyV" id="VMt-Dk-2Nx"/>
                         <outlet property="temaB" destination="HHO-4x-rtS" id="EmO-TY-p98"/>
                         <outlet property="temaC" destination="L5S-N5-sa9" id="oEf-8m-aZk"/>

@@ -10,6 +10,7 @@
 @interface ViewController ()
 
 @property(nonatomic, readwrite) int valor;
+@property(nonatomic, readwrite) int varRef;
 @property(nonatomic, readwrite) int tipo;
 
 
@@ -83,6 +84,17 @@
     
     
     _textoMod.text = _contenido;
+    _varRef = arc4random_uniform(4);
+
+    if (_valor == _varRef && _varRef-1 >= 0){
+        _valor = _varRef-1;
+    }else if(_valor == _varRef && _varRef +1 <=3 ){
+        _valor = _varRef+1;
+    }else {
+        _valor  =   _varRef;
+    }
+    
+    
 }
 - (IBAction)temaC:(id)sender {
         _valor = arc4random_uniform(4);
